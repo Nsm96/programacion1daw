@@ -27,8 +27,8 @@ public class Tienda {
 
     public double calcularPrecio() {
         int descuento_Aplicado = Math.max(descuento, descuento_global);
-        double precioConDescuento = precio - (precio * descuento_Aplicado / 100.0);
-        return precioConDescuento + (precioConDescuento * iva / 100.0);
+        double precioConDescuento = precio - (precio * descuento_Aplicado / 100);
+        return precioConDescuento + (precioConDescuento * iva / 100);
 
     }
 

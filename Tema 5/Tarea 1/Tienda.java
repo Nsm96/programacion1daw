@@ -9,19 +9,19 @@ public class Tienda {
 
     // constructor
     public Tienda() {
-        this.precio = 10;
-        this.iva = 21;
-        this.descuento = 0;
-        num_productos++;
-        this.calcularPrecio();
+            this.precio = 10;
+            this.iva = 21;
+            this.descuento = 0;
+            num_productos++;
+            this.calcularPrecio();
     }
 
     public Tienda(String producto, double precio, int iva, int descuento) {
-        this.producto = producto;
-        this.precio = precio;
-        this.iva = iva;
-        this.descuento = descuento;
-        num_productos++;
+            this.producto = producto;
+            this.precio = precio;
+            this.iva = iva;
+            this.descuento = descuento;
+            num_productos++;
     }
 
 

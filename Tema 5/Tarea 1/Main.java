@@ -4,12 +4,12 @@
         //  creo mis productos
 
         Tienda impresora_hp = new Tienda("Impresora HP", 100, 21, 5);
-        Tienda raton = new Tienda("raton", 20, 4, 15);
+        Tienda raton_logitech = new Tienda("raton", 10, 21, 0);
         Tienda libro_java = new Tienda("libro java", 20, 4, 15);
         // imprimo los productos
 
         System.out.println(impresora_hp);
-        System.out.println(raton);
+        System.out.println(raton_logitech);
         System.out.println(libro_java);
         System.out.println("Número de prodcutos: " + Tienda.getNum_productos());
 
@@ -20,12 +20,12 @@
             if (bf_si_no.equals("si")){
                     Tienda.setDescuento_global(10);
                 System.out.println("Descuento global aplicado: 10%");
-                    raton.setPrecio(13);
-                System.out.println("El precio del ratón ahora es: " + raton.getPrecio());
+                    raton_logitech.setPrecio(12);
+                System.out.println("El precio del ratón ahora es: " + raton_logitech.getPrecio());
                 // En caso de ser BF, imprimo el precio con descuento
                 System.out.println("\n --- Con descuento de Black Friday---");
                     System.out.println(impresora_hp);
-                    System.out.println(raton);
+                    System.out.println(raton_logitech);
                     System.out.println(libro_java);
                 System.out.println("Número de productos: " + Tienda.getNum_productos());
             } else if (bf_si_no.equals("no")) {

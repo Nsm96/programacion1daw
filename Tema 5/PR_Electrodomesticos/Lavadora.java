@@ -1,4 +1,7 @@
 public class Lavadora extends Electrodomestico {
+    protected int carga = 5;
+
+    
     public Lavadora() {
     }
 
@@ -16,9 +19,6 @@ public class Lavadora extends Electrodomestico {
                 '}';
     }
 
-    static void main() {
-        int carga = 5;
 
-
-    }
 }
+

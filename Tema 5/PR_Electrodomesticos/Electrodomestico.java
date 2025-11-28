@@ -3,6 +3,7 @@ public class Electrodomestico {
     protected Colores color;
     protected String consumo_energetico;
     protected int peso;
+    double precio;
 
     public Electrodomestico() {
         this.precio_base = 100;
@@ -10,7 +11,6 @@ public class Electrodomestico {
         this.consumo_energetico = "A";
         this.peso = 10;
         this.ComprobarConsumoElectrico();
-        this.PrecioFinal();
     }
 
     public Electrodomestico(int precio_base, Colores color, String consumo_energetico, int peso) {
@@ -19,57 +19,59 @@ public class Electrodomestico {
         this.consumo_energetico = consumo_energetico;
         this.peso = peso;
         this.ComprobarConsumoElectrico();
-        this.PrecioFinal();
     }
 
-    private void ComprobarConsumoElectrico() {
-        if (consumo_energetico != "A+" || consumo_energetico != "A" || consumo_energetico != "B" || consumo_energetico != "C" || consumo_energetico != "D" || consumo_energetico != "E" || consumo_energetico != "F"){
+    protected void ComprobarConsumoElectrico() {
+        if (!consumo_energetico.equals("A+") && !consumo_energetico.equals("A") && !consumo_energetico.equals("B") && !consumo_energetico.equals("C") && !consumo_energetico.equals("D") && !consumo_energetico.equals("E") && !consumo_energetico.equals("F")) {
             consumo_energetico = "A";
         }
     }
-    private void PrecioFinal(){
+    protected int PrecioFinal(){
+        double precio = precio_base;
         switch (consumo_energetico){
             case "A+":
-                precio_base = precio_base + 120;
+                precio = precio_base + 120;
             break;
             case "A":
-                precio_base = precio_base + 100;
+                precio = precio_base + 100;
             break;
             case "B":
-                precio_base = precio_base + 80;
+                precio = precio_base + 80;
             break;
             case "C":
-                precio_base = precio_base + 60;
+                precio = precio_base + 60;
             break;
             case "D":
-                precio_base = precio_base + 50;
+                precio = precio_base + 50;
             break;
             case "E":
-                precio_base = precio_base + 30;
+                precio = precio_base + 30;
             break;
             case "F":
-                precio_base = precio_base + 10;
+                precio = precio_base + 10;
             break;
+
         }
+
         if(peso > 0 && peso <= 19){
-            precio_base += 10;
+            precio += 10;
         } else if (peso >= 20 && peso <= 49){
-            precio_base += 30;
+            precio += 30;
         } else if (peso >= 50 && peso <= 79){
-            precio_base += 50;
+            precio += 50;
         } else if (peso >=80){
-            precio_base += 100;
+            precio += 100;
         }
+        return (int) precio;
     }
 
     @Override
     public String toString() {
-        return "Electrodomestico{" +
-                "precio_base=" + precio_base +
-                ", color=" + color +
-                ", consumo_energetico='" + consumo_energetico + '\'' +
-                ", peso=" + peso +
-                '}';
+        return "Electrodomestico" +
+                "\n color = " + color +
+                "\n precio_base = " + precio_base +
+                "\n consumo_energetico = " + consumo_energetico +
+                "\n peso = " + peso;
     }
 
     public int getPrecio_base() {

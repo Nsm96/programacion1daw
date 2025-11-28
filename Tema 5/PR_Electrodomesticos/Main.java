@@ -1,19 +1,19 @@
 void main() {
-    Scanner sc = new Scanner(System.in);
-    Electrodomestico elect1 = new Electrodomestico();
+    Electrodomestico elect1 = new Electrodomestico(50, Colores.Plateado, "L", 20);
+    elect1.PrecioFinal();
     Electrodomestico elect2 = new Electrodomestico(100, Colores.Blanco, "Z", 10);
-    Electrodomestico lavadora = new Lavadora(100, Colores.Azul, "K", 10);
+    elect2.PrecioFinal();
+    Lavadora lavadoraAEG = new Lavadora(400, Colores.Plateado, "PK", 30, 7);
+    lavadoraAEG.PrecioFinal();
+    Television tvSamsung = new Television(190, Colores.Negro,"A+", 10, 24, true);
+    tvSamsung.PrecioFinal();
 
 
-
-//    System.out.println("Introduce qué electrodomestico quieres consultar:");
-//    String consulta = sc.next();
-
-
-    System.out.println("Precio: " +elect2.precio_base + "€.");
-    System.out.println("Color:  " +elect2.color + ".");
-    System.out.println("Consumo: " +elect2.consumo_energetico + ".");
-    System.out.println("Peso:  " +elect2.peso + ".");
-
-//    System.out.println(elect2);
+    System.out.println(elect1);
+    System.out.println("-------------");
+    System.out.println(elect2);
+    System.out.println("-------------");
+    System.out.println(lavadoraAEG);
+    System.out.println("-------------");
+    System.out.println(tvSamsung);
 }

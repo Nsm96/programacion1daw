@@ -3,7 +3,6 @@ public class Television extends Electrodomestico {
     protected boolean netflix;
     int precio_sin_recargo;
 
-
     public Television(int precio_base, Colores color, String consumo_energetico, int peso, int resolucion, boolean netflix) {
         super(precio_base, color, consumo_energetico, peso);
         this.resolucion = resolucion;
@@ -21,14 +20,22 @@ public class Television extends Electrodomestico {
                 "\n * Precio = " + precio + " €";
     }
 
+    public int getResolucion() {
+        return resolucion;
+    }
+
+    public void setResolucion(int resolucion) {
+        this.resolucion = resolucion;
+    }
+
     @Override
     protected int PrecioFinal() {
         precio_sin_recargo = this.precio_base;
         precio = super.PrecioFinal();
-        if (resolucion > 20){
+        if (resolucion > 20) {
             precio += precio_sin_recargo * 0.30;
         }
-        if (netflix){
+        if (netflix) {
             precio += 60;
         }
         return (int) precio;

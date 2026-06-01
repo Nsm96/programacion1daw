@@ -2,7 +2,7 @@ const contenedor = document.getElementById("productos");
 const botonesFiltro = document.querySelectorAll(".boton-filtro");
 
 const imagenes = {
-  "Baos": "public/img/baos.png",
+  "Baos": "/public/img/baos.png",
   "Bibimbap": "public/img/bidimbap.png",
   "Cinnabao rolls": "public/img/cinnabaorolls.png",
   "Cookies de sésamo y chocolate": "public/img/cookiesdesesamoychocolate.png",

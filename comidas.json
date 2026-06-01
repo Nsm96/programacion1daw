@@ -1,0 +1,244 @@
+{
+  "Comidas": [
+    {
+      "nombre": "Tiramisú de matcha",
+      "descripción": "Postre cremoso con capas de bizcocho, mascarpone y té matcha.",
+      "tipo": "Postre",
+      "kcal": "420",
+      "alergenos": ["Lácteos", "Huevo", "Gluten"],
+      "precio": "5.50"
+    },
+    {
+      "nombre": "Mochi brownie",
+      "descripción": "Fusión de brownie con textura elástica de mochi.",
+      "tipo": "Postre",
+      "kcal": "380",
+      "alergenos": ["Gluten", "Huevo"],
+      "precio": "4.80"
+    },
+    {
+      "nombre": "Pastel de fresas y nata",
+      "descripción": "Bizcocho suave con fresas frescas y nata montada.",
+      "tipo": "Postre",
+      "kcal": "450",
+      "alergenos": ["Lácteos", "Gluten", "Huevo"],
+      "precio": "5.00"
+    },
+    {
+      "nombre": "Dorayaki",
+      "descripción": "Pastel japonés relleno de anko o crema.",
+      "tipo": "Postre",
+      "kcal": "300",
+      "alergenos": ["Gluten", "Huevo"],
+      "precio": "3.50"
+    },
+    {
+      "nombre": "Tostadas estilo Hong Kong",
+      "descripción": "Pan tostado con mantequilla y leche condensada.",
+      "tipo": "Postre",
+      "kcal": "350",
+      "alergenos": ["Gluten", "Lácteos"],
+      "precio": "4.20"
+    },
+    {
+      "nombre": "Cookies de sésamo y chocolate",
+      "descripción": "Galletas crujientes con sésamo y chocolate.",
+      "tipo": "Postre",
+      "kcal": "320",
+      "alergenos": ["Gluten", "Sésamo"],
+      "precio": "3.00"
+    },
+    {
+      "nombre": "Cinnabao rolls",
+      "descripción": "Bao dulce relleno de canela y glaseado.",
+      "tipo": "Postre",
+      "kcal": "400",
+      "alergenos": ["Gluten", "Lácteos"],
+      "precio": "4.50"
+    },
+    {
+      "nombre": "Cookies de matcha",
+      "descripción": "Galletas aromatizadas con té verde matcha.",
+      "tipo": "Postre",
+      "kcal": "310",
+      "alergenos": ["Gluten"],
+      "precio": "3.20"
+    },
+    {
+      "nombre": "Baos",
+      "descripción": "Panecillos al vapor rellenos de carne o verduras.",
+      "tipo": "Entrante",
+      "kcal": "250",
+      "alergenos": ["Gluten"],
+      "precio": "4.50"
+    },
+    {
+      "nombre": "Kare pan",
+      "descripción": "Pan japonés frito relleno de curry.",
+      "tipo": "Entrante",
+      "kcal": "300",
+      "alergenos": ["Gluten"],
+      "precio": "3.80"
+    },
+    {
+      "nombre": "Tamago sando",
+      "descripción": "Sándwich japonés de huevo cremoso.",
+      "tipo": "Entrante",
+      "kcal": "280",
+      "alergenos": ["Gluten", "Huevo"],
+      "precio": "4.20"
+    },
+    {
+      "nombre": "Focaccia oriental",
+      "descripción": "Pan italiano con sabores asiáticos.",
+      "tipo": "Entrante",
+      "kcal": "270",
+      "alergenos": ["Gluten"],
+      "precio": "3.90"
+    },
+    {
+      "nombre": "Sopa de huevo china",
+      "descripción": "Caldo ligero con huevo batido.",
+      "tipo": "Entrante",
+      "kcal": "120",
+      "alergenos": ["Huevo"],
+      "precio": "3.50"
+    },
+    {
+      "nombre": "Pato Pekín",
+      "descripción": "Pato asado con piel crujiente y salsa hoisin.",
+      "tipo": "Principal",
+      "kcal": "600",
+      "alergenos": ["Soja"],
+      "precio": "15.00"
+    },
+    {
+      "nombre": "Pato a la naranja",
+      "descripción": "Pato con salsa cítrica dulce.",
+      "tipo": "Principal",
+      "kcal": "580",
+      "alergenos": [],
+      "precio": "14.50"
+    },
+    {
+      "nombre": "Sopa de miso tofu con soja y miel",
+      "descripción": "Sopa japonesa con tofu y toque dulce.",
+      "tipo": "Entrante",
+      "kcal": "180",
+      "alergenos": ["Soja"],
+      "precio": "3.80"
+    },
+    {
+      "nombre": "Katsu tofu",
+      "descripción": "Tofu empanado con salsa katsu.",
+      "tipo": "Principal",
+      "kcal": "450",
+      "alergenos": ["Gluten", "Soja"],
+      "precio": "9.50"
+    },
+    {
+      "nombre": "Mapo tofu",
+      "descripción": "Tofu picante con carne y especias.",
+      "tipo": "Principal",
+      "kcal": "500",
+      "alergenos": ["Soja"],
+      "precio": "9.80"
+    },
+    {
+      "nombre": "Wontons fritos",
+      "descripción": "Empanadillas chinas crujientes.",
+      "tipo": "Entrante",
+      "kcal": "320",
+      "alergenos": ["Gluten"],
+      "precio": "4.00"
+    },
+    {
+      "nombre": "Wontons picantes",
+      "descripción": "Wontons con salsa picante.",
+      "tipo": "Entrante",
+      "kcal": "300",
+      "alergenos": ["Gluten"],
+      "precio": "4.20"
+    },
+    {
+      "nombre": "Sopa de wontons",
+      "descripción": "Sopa con wontons en caldo.",
+      "tipo": "Entrante",
+      "kcal": "250",
+      "alergenos": ["Gluten"],
+      "precio": "4.50"
+    },
+    {
+      "nombre": "Rollitos de primavera",
+      "descripción": "Rollos fritos de verduras o carne.",
+      "tipo": "Entrante",
+      "kcal": "280",
+      "alergenos": ["Gluten"],
+      "precio": "3.80"
+    },
+    {
+      "nombre": "Gyozas",
+      "descripción": "Empanadillas japonesas a la plancha.",
+      "tipo": "Entrante",
+      "kcal": "300",
+      "alergenos": ["Gluten"],
+      "precio": "4.20"
+    },
+    {
+      "nombre": "Sunomono",
+      "descripción": "Ensalada japonesa de pepino.",
+      "tipo": "Entrante",
+      "kcal": "90",
+      "alergenos": [],
+      "precio": "3.00"
+    },
+    {
+      "nombre": "Tartar de atún",
+      "descripción": "Atún crudo con aliño asiático.",
+      "tipo": "Entrante",
+      "kcal": "220",
+      "alergenos": ["Pescado"],
+      "precio": "6.50"
+    },
+    {
+      "nombre": "Edamames",
+      "descripción": "Vainas de soja hervidas con sal.",
+      "tipo": "Entrante",
+      "kcal": "150",
+      "alergenos": ["Soja"],
+      "precio": "3.50"
+    },
+    {
+      "nombre": "Ramen",
+      "descripción": "Sopa japonesa con fideos y caldo intenso.",
+      "tipo": "Principal",
+      "kcal": "650",
+      "alergenos": ["Gluten", "Soja"],
+      "precio": "10.50"
+    },
+    {
+      "nombre": "Bibimbap",
+      "descripción": "Arroz coreano con verduras, carne y huevo.",
+      "tipo": "Principal",
+      "kcal": "700",
+      "alergenos": ["Huevo", "Soja"],
+      "precio": "11.00"
+    },
+    {
+      "nombre": "Gimbap",
+      "descripción": "Rollos coreanos de arroz y relleno variado.",
+      "tipo": "Entrante",
+      "kcal": "300",
+      "alergenos": ["Gluten"],
+      "precio": "5.00"
+    },
+        {
+      "nombre": "Bingsu de matcha",
+      "descripción": "Postre coreano de hielo raspado con base de leche, matcha, mochi y leche condensada.",
+      "tipo": "Postre",
+      "kcal": "320",
+      "alergenos": ["Soja", "Gluten", "Lácteos"],
+      "precio": "5.20"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro menú</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+<div class="titulo-wrap">
+  <h1 class="titulo">Nuestro menú</h1>
+</div>
+  <main>
+    <div class="filtros">
+      <button class="boton-filtro activo" data-tipo="Todos">Todos</button>
+      <button class="boton-filtro" data-tipo="Entrante">Entrantes</button>
+      <button class="boton-filtro" data-tipo="Principal">Principales</button>
+      <button class="boton-filtro" data-tipo="Postre">Postres</button>
+    </div>
+
+    <div id="productos"></div>
+  </main>
+
+  <script src="back.js"></script>
+</body>
+</html>
